@@ -1,0 +1,43 @@
+{
+  "name": "@littleq/shadow-bit",
+  "version": "0.0.1",
+  "description": "An experimental web-component library that abstracts creation of dynamic web-components. Based from Polymer 3 code.",
+  "main": "shadow-bit.js",
+  "size-limit": [
+    {
+      "path": "shadow-bit-lite.js",
+      "limit": "5 KB"
+    },
+    {
+      "path": "shadow-bit.js",
+      "limit": "5 KB"
+    },
+    {
+      "path": "shadow-bit-extended.js",
+      "limit": "5 KB"
+    }
+  ],
+  "scripts": {
+    "size": "size-limit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmonsi/shadow-bit.git"
+  },
+  "keywords": [
+    "web-component"
+  ],
+  "author": "TJ Monserrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmonsi/shadow-bit/issues"
+  },
+  "homepage": "https://github.com/tjmonsi/shadow-bit#readme",
+  "devDependencies": {
+    "size-limit": "^0.13.1"
+  },
+  "dependencies": {
+    "lit-html": "^0.7.1"
+  }
+}
